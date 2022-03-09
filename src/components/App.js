@@ -1,6 +1,7 @@
 import Recipes from "./Recipes";
 import wear from "../images/wealgowear.jpg";
 import world from "../images/worldLow.svg";
+import Whatever from "./Whatever";
 
 const App = () => {
     return (
@@ -16,6 +17,7 @@ const App = () => {
                 <img src={world} alt={world} height="250" width="450" />
             </main>
             <Recipes />
+            <Whatever />
         </div>
     )
 }

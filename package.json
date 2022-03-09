@@ -7,8 +7,7 @@
     "start": "webpack serve",
     "watch": "webpack --watch",
     "build": "cross-env NODE_ENV=production webpack",
-    "build-dev": "webpack",
-    "clean": "rm -rf dist"
+    "build-dev": "webpack"
   },
   "repository": {
     "type": "git",
@@ -21,6 +20,7 @@
     "@babel/core": "^7.17.5",
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.4",
     "babel-loader": "^8.2.3",
     "clean-webpack-plugin": "^4.0.0",
     "cross-env": "^7.0.3",
@@ -30,6 +30,7 @@
     "postcss": "^8.4.7",
     "postcss-loader": "^6.2.1",
     "postcss-preset-env": "^7.4.2",
+    "react-refresh": "^0.11.0",
     "sass": "^1.49.9",
     "sass-loader": "^12.6.0",
     "webpack": "^5.70.0",
@@ -38,8 +39,7 @@
   },
   "dependencies": {
     "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "reatc": "0.0.1-security"
+    "react-dom": "^17.0.2"
   },
   "resolutions": {
     "browserslist": "4.20.0",

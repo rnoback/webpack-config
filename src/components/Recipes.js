@@ -1,3 +1,5 @@
+// Set per page if the state needs to refresh
+// @refresh reset
 import { useState } from 'react';
 
 const elvenShieldRecipe = {
